@@ -11,5 +11,5 @@ purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
       animation: ['group-hover'],
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
 }
