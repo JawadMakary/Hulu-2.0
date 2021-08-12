@@ -8,6 +8,7 @@ purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   },
   variants: {
     extend: {
+      textColor: ['responsive','active', 'hover', 'focus', 'group-hover'],
       animation: ['group-hover'],
     },
   },

@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Results from '../components/Results'
 import Content from '../containers/Content'
 import Header from '../containers/Header'
 import Nav from '../containers/Nav'
+import Results from '../containers/Results'
 import requests from '../utils/requests'
 
 export default function Home({results}) {
+  // console.log(results)
   return (
     <div >
       <Head>

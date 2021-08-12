@@ -7,7 +7,7 @@ const Content = () => {
         <div>
             <Header />
             <Nav />
-            
+          
         </div>
     )
 }
